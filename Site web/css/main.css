@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  background-image: url("../img/fond.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  margin-bottom: 0px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 60px;
+  height: 500px;
+  /* original size 500px */
+  width: 1000px;
+  /* original size 1000px */
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
+}
+
+.container .left-panel {
+  background-color: white;
+  border-radius: 60px 0px 0px 60px;
+  width: 650px;
+  /* original size 650px */
+  height: 500px;
+  text-align: center;
+}
+
+.container .left-panel .titre {
+  margin: 50px 0px 30px 0px;
+  color: #C17C3E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  height: 114px;
+  /* original size 114px */
+  width: 580px;
+  /* original size 580px */
+}
+
+.container .left-panel input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  /* original size 350px */
+  padding: 12px 20px;
+  margin-bottom: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-bottom: 1.5px solid #C5C5C5;
+  font-size: 15px;
+}
+
+.container .left-panel input::-webkit-input-placeholder {
+  color: #C5C5C5;
+}
+
+.container .left-panel input:-ms-input-placeholder {
+  color: #C5C5C5;
+}
+
+.container .left-panel input::-ms-input-placeholder {
+  color: #C5C5C5;
+}
+
+.container .left-panel input::placeholder {
+  color: #C5C5C5;
+}
+
+.container .left-panel .bouton {
+  margin-top: 30px;
+  margin-left: 215px;
+  font-size: 15px;
+  color: white;
+  border-radius: 35px;
+  border: 0px;
+  height: 35px;
+  width: 125px;
+  background-color: #C17C3E;
+}
+
+.container .right-panel {
+  background-image: linear-gradient(60deg, #FFF0B2, #9FFFF9);
+  border-radius: 0px 60px 60px 0px;
+  width: 350px;
+  text-align: center;
+  /* original size 350px */
+}
+
+.container .right-panel .logo {
+  margin-top: 225px;
+  /* original size 225px */
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  /* original size 50px */
+}
+/*# sourceMappingURL=main.css.map */
