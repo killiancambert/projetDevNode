@@ -145,9 +145,54 @@ body {
 
 table {
   margin: 50px;
+  width: 90%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 0px;
+  background-color: #F1F1F1;
+}
+
+table thead {
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+table thead .coin-droit {
+  border-radius: 0px 10px 0px 0px;
+}
+
+table thead tr {
+  background-color: #FFFFFF;
+}
+
+table thead .coin-gauche {
+  border-radius: 10px 0px 0px 0px;
+}
+
+table tbody {
+  background-color: #F1F1F1;
+}
+
+table tbody tr {
+  height: 55px;
 }
 
 table th {
-  margin: 25px;
+  height: 75px;
+  padding: 0px;
+}
+
+table td {
+  text-align: center;
+}
+
+table .bouton-img {
+  border: none;
+  background: none;
+}
+
+table .bouton-img img {
+  height: 40px;
 }
 /*# sourceMappingURL=main.css.map */
