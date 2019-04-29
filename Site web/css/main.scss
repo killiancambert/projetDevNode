@@ -5,10 +5,12 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background-image: url('../img/fond.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.indentification{
+    background-image: url('../img/fond.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -99,5 +101,11 @@ body {
         height: 35px;
         width: 125px;                       
         background-color: #C17C3E;
+    }
+}
+table{
+    margin: 50px;
+    th{
+        margin: 25px;
     }
 }

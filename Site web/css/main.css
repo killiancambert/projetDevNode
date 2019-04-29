@@ -5,6 +5,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+
+.indentification {
   background-image: url("../img/fond.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -138,5 +141,13 @@ body {
   height: 35px;
   width: 125px;
   background-color: #C17C3E;
+}
+
+table {
+  margin: 50px;
+}
+
+table th {
+  margin: 25px;
 }
 /*# sourceMappingURL=main.css.map */
