@@ -76,3 +76,28 @@ body {
         }
     }
 }
+.navbar{
+    display: flex;
+    background-color: #F1F1F1;
+    height: 70px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
+
+
+    .logo_nav{
+        height: 30px; 
+        margin: 20px;
+    }
+    .deco{
+        margin-top: 20px;
+        font-size: 15px;
+        position: absolute;
+        right: 50px;
+        margin-left: 300px;
+        color: white;
+        border-radius: 35px;
+        border: 0px;
+        height: 35px;
+        width: 125px;                       
+        background-color: #C17C3E;
+    }
+}
