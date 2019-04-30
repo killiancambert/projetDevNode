@@ -5,6 +5,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+
+.indentification {
   background-image: url("../img/fond.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -140,6 +143,7 @@ body {
   background-color: #C17C3E;
 }
 
+<<<<<<< HEAD
 .bouton {
   margin-top: 30px;
   margin-left: 215px;
@@ -194,5 +198,58 @@ form textarea {
 
 form button {
   margin-left: .5em;
+=======
+table {
+  margin: 50px;
+  width: 90%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 0px;
+  background-color: #F1F1F1;
+}
+
+table thead {
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+table thead .coin-droit {
+  border-radius: 0px 10px 0px 0px;
+}
+
+table thead tr {
+  background-color: #FFFFFF;
+}
+
+table thead .coin-gauche {
+  border-radius: 10px 0px 0px 0px;
+}
+
+table tbody {
+  background-color: #F1F1F1;
+}
+
+table tbody tr {
+  height: 55px;
+}
+
+table th {
+  height: 75px;
+  padding: 0px;
+}
+
+table td {
+  text-align: center;
+}
+
+table .bouton-img {
+  border: none;
+  background: none;
+}
+
+table .bouton-img img {
+  height: 40px;
+>>>>>>> f0bd262c76cae43491e427158d6238f7e8bb0dd6
 }
 /*# sourceMappingURL=main.css.map */

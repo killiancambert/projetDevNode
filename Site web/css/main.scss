@@ -1,14 +1,16 @@
 html,
 body {
-  height: 100%;
-  margin:0px;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  background-image: url('../img/fond.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100%;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+.indentification{
+    background-image: url('../img/fond.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -20,7 +22,7 @@ body {
     height: 500px;          /* original size 500px */
     width: 1000px;          /* original size 1000px */
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
-
+    
     .left-panel{
         background-color: white;
         border-radius: 60px 0px 0px 60px;
@@ -81,8 +83,8 @@ body {
     background-color: #F1F1F1;
     height: 70px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16);
-
-
+    
+    
     .logo_nav{
         height: 30px; 
         margin: 20px;
@@ -101,6 +103,7 @@ body {
         background-color: #C17C3E;
     }
 }
+<<<<<<< HEAD
 .bouton{
     margin-top: 30px;
     margin-left: 215px;
@@ -152,5 +155,49 @@ form {
     
     button {
         margin-left: .5em;
+=======
+table{
+    margin: 50px;
+    width: 90%;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    padding: 0px;
+    
+    thead{
+        color: #000;
+        background-color:#FFFFFF;
+        .coin-droit{
+            border-radius: 0px 10px 0px 0px;
+        }
+        tr{
+            background-color: #FFFFFF;
+        }
+        .coin-gauche{
+            border-radius: 10px 0px 0px 0px;
+        }
+    }
+    tbody{
+        background-color: #F1F1F1;
+        tr{
+            height: 55px;
+        }
+    }
+    th{
+        height: 75px;
+        padding: 0px;
+        
+    }
+    background-color: #F1F1F1;
+    td{
+        text-align: center;
+    }
+    .bouton-img{
+        border: none;
+        background: none;
+        img{
+            height: 40px;
+        }
+>>>>>>> f0bd262c76cae43491e427158d6238f7e8bb0dd6
     }
 }
