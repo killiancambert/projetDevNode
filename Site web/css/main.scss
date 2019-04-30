@@ -78,6 +78,10 @@ body {
         }
     }
 }
+
+
+
+// NAVBAR
 .navbar{
     display: flex;
     background-color: #F1F1F1;
@@ -103,7 +107,10 @@ body {
         background-color: #C17C3E;
     }
 }
-<<<<<<< HEAD
+// Fin navbar 
+
+
+
 .bouton{
     margin-top: 30px;
     margin-left: 215px;
@@ -115,18 +122,32 @@ body {
     width: 125px;                       
     background-color: #C17C3E;
 }
-form {
-    margin: 0 auto;
-    width: 800px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    text-align: center;
 
+// Formulaire 
+form {
+    margin-top: 25px;
+    margin-left :auto;
+    margin-right: auto;
+    width: 95%;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    
+    h3{
+        padding-left: 30px;
+        padding-top: 25px;
+        margin-bottom: 10px;
+    }
+    .trait{
+        background-color: #707070;
+        height: 1pt;
+        width: 15%;
+        margin-left: 20px;
+    }
     form div + div {
         margin-top: 1em;
     }
-
+    
     div{
         margin-bottom: 25px;
     }
@@ -155,7 +176,12 @@ form {
     
     button {
         margin-left: .5em;
-=======
+    }
+}
+// Fin du formulaire 
+
+
+// début des listes 
 table{
     margin: 50px;
     width: 90%;
@@ -198,6 +224,6 @@ table{
         img{
             height: 40px;
         }
->>>>>>> f0bd262c76cae43491e427158d6238f7e8bb0dd6
     }
 }
+// fin des listes 

@@ -143,7 +143,6 @@ body {
   background-color: #C17C3E;
 }
 
-<<<<<<< HEAD
 .bouton {
   margin-top: 30px;
   margin-left: 215px;
@@ -157,12 +156,26 @@ body {
 }
 
 form {
-  margin: 0 auto;
-  width: 800px;
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  text-align: center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 600px;
+  border-radius: 15px;
+  background-color: #F1F1F1;
+}
+
+form h3 {
+  padding-left: 30px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+form .trait {
+  background-color: #707070;
+  height: 1pt;
+  width: 15%;
+  margin-left: 20px;
 }
 
 form form div + div {
@@ -198,7 +211,8 @@ form textarea {
 
 form button {
   margin-left: .5em;
-=======
+}
+
 table {
   margin: 50px;
   width: 90%;
@@ -250,6 +264,5 @@ table .bouton-img {
 
 table .bouton-img img {
   height: 40px;
->>>>>>> f0bd262c76cae43491e427158d6238f7e8bb0dd6
 }
 /*# sourceMappingURL=main.css.map */
