@@ -5,6 +5,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+
+.indentification {
   background-image: url("../img/fond.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -132,6 +135,148 @@ body {
   position: absolute;
   right: 50px;
   margin-left: 300px;
+  color: white;
+  border-radius: 35px;
+  border: 0px;
+  height: 35px;
+  width: 125px;
+  background-color: #C17C3E;
+}
+
+form {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 600px;
+  border-radius: 15px;
+  background-color: #F1F1F1;
+}
+
+form h3 {
+  padding-left: 30px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+form .trait {
+  background-color: #707070;
+  height: 2px;
+  width: 220px;
+  margin-left: 20px;
+}
+
+form form div + div {
+  margin-top: 1em;
+}
+
+form .contenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form .left-panel {
+  width: 150px;
+  text-align: center;
+}
+
+form .left-panel label {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+form .right-panel {
+  text-align: left;
+  width: 100%;
+}
+
+form .right-panel input, form .right-panel textarea {
+  display: block;
+  margin-top: 38px;
+  font: 1em sans-serif;
+  width: 95%;
+  height: 30px;
+  border: 1px solid #999;
+}
+
+form .right-panel textarea {
+  height: 125px;
+  max-height: 125px;
+  vertical-align: top;
+  height: 125px;
+  resize: none;
+}
+
+form .right-panel input:focus, form .right-panel textarea:focus {
+  border-color: #000;
+}
+
+form button {
+  position: absolute;
+  right: 100px;
+}
+
+table {
+  margin: 50px;
+  width: 90%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 0px;
+  background-color: #F1F1F1;
+}
+
+table thead {
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+table thead .coin-droit {
+  border-radius: 0px 10px 0px 0px;
+}
+
+table thead tr {
+  background-color: #FFFFFF;
+}
+
+table thead .coin-gauche {
+  border-radius: 10px 0px 0px 0px;
+}
+
+table tbody {
+  background-color: #F1F1F1;
+}
+
+table tbody tr {
+  height: 55px;
+}
+
+table th {
+  height: 75px;
+  padding: 0px;
+}
+
+table td {
+  text-align: center;
+}
+
+table .bouton-img {
+  border: none;
+  background: none;
+}
+
+table .bouton-img img {
+  height: 40px;
+}
+
+.bouton {
+  margin-top: 30px;
+  margin-left: 215px;
+  font-size: 15px;
   color: white;
   border-radius: 35px;
   border: 0px;

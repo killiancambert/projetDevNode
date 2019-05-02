@@ -12,18 +12,34 @@
 
 <body>
     <nav class="navbar">
-        <img src="img/logo.png" class="logo_nav" alt="logo">
-        <button class="deco">Déconnexion</button>
+        <a href="list.html"> <img src="img/logo.png" class="logo_nav" alt="logo"></a>
+        <a href="index.html"> <button class="deco">Déconnexion</button></a>
     </nav>
-
-    <h3>Ajouter un fournisseur</h3>
-
-    <p>Nom </p> <input></input>
-    <p>Adresse </p> <input></input>
-    <p>Téléphone </p> <input></input>
-    <p>Mail </p> <input></input>
-    <p>Description </p> <input></input>
-
+    
+    <form action="/" method="post">
+        <h3>Ajouter un fournisseur</h3>
+        <div class="trait"></div>
+        <div class="contenu">
+            <div class="left-panel">
+                <label for="name">Nom</label>
+                <label for="adress">Adresse</label>
+                <label for="phone">Téléphone</label>
+                <label for="mail">E-mail</label>
+                <label for="msg">Description</label>
+            </div>
+            <div class="right-panel">
+                <input type="text" id="name" name="user_name">
+                <input type="text" id="adress" name="user_adress">
+                <input type="int" id="phone" name="user_phone">
+                <input type="email" id="mail" name="user_mail">
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+        </div>
+        
+        <div class="button">
+            <a href="list.html"><button class="bouton">Ajouter</button></a>
+        </div>
+    </form>
 </body>
 
 </html>

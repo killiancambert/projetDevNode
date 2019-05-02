@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ViaBrico</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-        <script src="js/main.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ViaBrico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
 
-    <body>
-        <nav class="navbar">
-            <img src="img/logo.png" class="logo_nav" alt="logo">
-            <button class="deco">Déconnexion</button>
-        </nav>
-        <table>
-            <caption></caption>
-
-            <thead>
-                <!-- En-tête du tableau -->
+<body>
+    <nav class="navbar">
+        <a href="list.html"> <img src="img/logo.png" class="logo_nav" alt="logo"></a>
+        <a href="index.html"> <button class="deco">Déconnexion</button></a>
+    </nav>
+    <table>
+        
+        <thead>
+            <!-- En-tête du tableau -->
+            <tr>
+                <th class="coin-gauche">Nom</th>
+                <th>Description</th>
+                <th>Adresse</th>
+                <th>Téléphone</th>
+                <th>Mail</th>
+                <th colspan="2" class="coin-droit"><a href="add.html"><button class="bouton-img btn"> <img src="img/add.png"></button></a></th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <!-- Corps du tableau -->
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td class="td-droit"><a href="modify.html"><button class="bouton-img"><img src="img/edit.png"/></button></a></td>
+                <td class="td-droit"><button class="bouton-img"> <img src="img/trash-bin.png"></button></td>
+            </tr>
+            <tr>
+                <td>test2</td>
+                <td>test2</td>
+                <td>test2</td>
+                <td>Test2</td>
+                <td>Test2</td>
+                <td class="td-droit"><a href="modify.html"><button class="bouton-img"><img src="img/edit.png"/></button></a></td>
+                <td class="td-droit"><button class="bouton-img"> <img src="img/trash-bin.png"></button></td>
                 <tr>
-                    <th>Nom</th>
-                    <th>Description</th>
-                    <th>Adresse</th>
-                    <th>Téléphone</th>
-                    <th>Mail</th>
-                    <th><button>Ajouter</button></th>
+                    <td>test3</td>
+                    <td>test3</td>
+                    <td>test3</td>
+                    <td>Test3</td>
+                    <td>Test3</td>
+                    <td class="td-droit"><a href="modify.html"><button class="bouton-img"><img src="img/edit.png"/></button></a></td>
+                    <td class="td-droit"><button class="bouton-img"> <img src="img/trash-bin.png"></button></td>
                 </tr>
-            </thead>
-
-            <tbody>
-                <!-- Corps du tableau -->
-                <tr>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td><button><img src="https://dummyimage.com/63x63/000/fff"/></button></td>
-                    <td><button><img src="https://dummyimage.com/63x63/000/fff"/></button></td>
-                </tr>
-            </tbody>
-        </table>
-
-    </body>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
 
 </html>
