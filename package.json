@@ -1,9 +1,35 @@
 {
-    "dependencies": {
-        "body-parser": "^1.18.3",
-        "ejs": "^2.6.1",
-        "express": "^4.16.4",
-        "mongoose": "^5.4.19",
-        "yargs": "^13.2.2"
-    }
+  "name": "projetDevNode",
+  "version": "1.0.0",
+  "description": "Api sur ViaBrico",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ttps://github.com/killiancambert/projetDevNode.git"
+  },
+  "author": "Antonin Joulie, Killian Cambert, Djimmy Drouet, Antonin Reillon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18",
+    "request": "^2.88.0",
+    "yargs": "^13.2.2"
+  },
+  "engines": {
+    "node": "8.9.3",
+    "npm": "5.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/killiancambert/projetDevNode/issues"
+  },
+  "homepage": "https://github.com/killiancambert/projetDevNode#README"
 }

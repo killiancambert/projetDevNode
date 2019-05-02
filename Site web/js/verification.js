@@ -1,5 +1,3 @@
-const mongoose = require('../../API Nodejs/db');
-
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function verification() {
@@ -7,7 +5,7 @@ function verification() {
     var password = document.getElementById("password").value;
     if (email == "test" && password == "test") {
         alert("Login successfully");
-        window.location = "list.html"; // Redirecting to other page.
+        window.location = "list"; // Redirecting to other page.
         return false;
     } else {
         attempt--; // Decrementing by one.
@@ -26,7 +24,7 @@ function afficher() {
     var x = document.getElementById("password");
     if (x.type === "password") {
         x.type = "text";
-    } else { 
+    } else {
         x.type = "password";
     }
 }
