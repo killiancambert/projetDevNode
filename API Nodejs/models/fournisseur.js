@@ -1,6 +1,6 @@
 const mongoose = require('../db');
 
-const modelList = mongoose.model('list', {
+const modelFournisseur = mongoose.model('table_fournisseur', {
     name: {
         type: String
     },
@@ -8,7 +8,7 @@ const modelList = mongoose.model('list', {
         type: String
     },
     adresse: {
-        type: String
+        type: Array
     },
     telephone: {
         type: Number
@@ -18,4 +18,4 @@ const modelList = mongoose.model('list', {
     }
 });
 
-module.exports = modelList
+module.exports = modelFournisseur
