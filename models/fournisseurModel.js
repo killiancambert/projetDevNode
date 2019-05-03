@@ -4,24 +4,19 @@ const { mongoose } = require('../db/database.js');
 //Création d'un modèle dans la base de donnée
 const Fournisseur = mongoose.model('Fournisseur', {
     name: {
-        type: String,
-        require: true
+        type: String
     },
     description: {
-        type: String,
-        require: true
+        type: String
     },
     adresse: {
-        type: String,
-        require: true
+        type: String
     },
     telephone: {
-        type: String,
-        require: true
+        type: String
     },
     mail: {
-        type: String,
-        require: true
+        type: String
     }
 });
 

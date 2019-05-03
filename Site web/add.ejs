@@ -11,11 +11,11 @@
 
 <body>
     <nav class="navbar">
-        <a href="list"> <img src="img/logo.png" class="logo_nav" alt="logo"></a>
+        <a href="/list"> <img src="img/logo.png" class="logo_nav" alt="logo"></a>
         <a href="/"> <button class="deco">Déconnexion</button></a>
     </nav>
 
-    <form action="/" method="post">
+    <form method="post">
         <h3>Ajouter un fournisseur</h3>
         <div class="trait"></div>
         <div class="contenu">
@@ -27,16 +27,16 @@
                 <label for="msg">Description</label>
             </div>
             <div class="right-panel">
-                <input type="text" id="name" name="user_name">
-                <input type="text" id="adress" name="user_adress">
-                <input type="int" id="phone" name="user_phone">
-                <input type="email" id="mail" name="user_mail">
-                <textarea id="msg" name="user_message"></textarea>
+                <input type="text" id="name" name="name">
+                <input type="text" id="adress" name="adresse">
+                <input type="int" id="phone" name="telephone">
+                <input type="email" id="mail" name="mail">
+                <textarea id="msg" name="description"></textarea>
             </div>
         </div>
 
         <div class="button">
-            <a href="list"><button class="bouton">Ajouter</button></a>
+            <a href="/list"><button class="bouton">Ajouter</button></a>
         </div>
     </form>
 </body>

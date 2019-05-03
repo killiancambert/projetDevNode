@@ -9,9 +9,7 @@ const command = process.argv[2];
 const port = 3000;
 
 //Appel du fichier route avec toutes les requêtes
-const {
-    app
-} = require('./routes');
+const { app } = require('./routes');
 
 // lancement du serveur
 app.listen(port);

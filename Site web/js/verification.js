@@ -5,7 +5,7 @@ function verification() {
     var password = document.getElementById("password").value;
     if (email == "test" && password == "test") {
         alert("Login successfully");
-        window.location = "list"; // Redirecting to other page.
+        window.location = "/list"; // Redirecting to other page.
         return false;
     } else {
         attempt--; // Decrementing by one.

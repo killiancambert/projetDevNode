@@ -11,7 +11,7 @@ input.addEventListener("keydown", function (e) {
 
 function get() {
     var url = document.getElementById('url').innerHTML;
-    url += input.value || "fournisseur/";
+    url += input.value || "/fournisseur";
     httpGetAsync(url, (body) => {
         let bodyJSON = JSON.parse(body);
         document.getElementById('body').innerHTML = JSON.stringify(bodyJSON, null, 4);
