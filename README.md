@@ -34,6 +34,20 @@ Si vous n'êtes pas déjà dans le dossier du projet :
 
 Les informations d'un fournisseur seront les suivantes : Nom, Description, Adresse, Téléphone et E-mail.
 
+# Les tâches du projet
+Après avoir pris connaissances du projet node.js, nous en avons sortie plusieurs grandes lignes de direction : réalisation d'un site web, réalisation d'une application mobile, réalisation d'une API et enfin, la mise en place d'une base de données. 
+Avant de commencer à développer les différents supports/outils, nous avons réfléchi et travaillé sur le design des différents écrans (*voir maquettes*).
+Une fois que nous étions d'accord sur le design, nous nous sommes réparti les différentes tâches importantes du projet.
+
+## Répartition des rôles
+
+- Antonin Jouly : Réalisation de l'API
+- Killian Cambert : Réalisation de l'application mobile et des maquettes
+- Djimy Drouet : Réalisation du site web
+- Antonin Reillon : Réalisation de certains points sur le site web et de la documentation.
+
+Bien évidemment, cela concerne la répartition des tâches importantes et cela ne nous a pas empêché de nous entre aider quand un des membres du groupe était bloqué ou pour effectuer des recherches.
+
 # Nos choix
 
 Pour réaliser cette API, nous avons décidé d'utiliser les extensions suivantes : Express, Mongoose, Request, Yargs, Body-Parser et enfin EJS.
