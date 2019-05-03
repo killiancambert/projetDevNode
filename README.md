@@ -7,7 +7,7 @@
 **L'API est maintenant fonctionnelle**
 
 Ensuite :
-- Se rendre sur internet avec l'adresse URL : localhost:3000
+- Se rendre sur internet avec l'adresse URL : http://localhost:3000
 
 Vous voila sur le site web, connectez-vous avec l'identifiant et mot de passe suivant : test / test.
 
@@ -16,7 +16,7 @@ Vous voila sur le site web, connectez-vous avec l'identifiant et mot de passe su
 ***Lancer l'invite de commande (cmd)***
 
 Si vous n'êtes pas déjà dans le dossier du projet : 
-- **Étape 1** : `cd E:\wamp64\www\projetDevNode `
+- **Étape 1** : `cd E:\..\..\projetDevNode `
 À adapter selon l'emplacement de votre dossier.
 
 - **Étape 2** : `npm install`
@@ -33,6 +33,8 @@ Si vous n'êtes pas déjà dans le dossier du projet :
 - Pouvoir en ajouter, modifier et supprimer
 
 Les informations d'un fournisseur seront les suivantes : Nom, Description, Adresse, Téléphone et E-mail.
+Après de nombreuses tentatives, nous n'avons pas réussi à intégrer les requettes aux site internet. Cependant, les requêtes sont réalisés et fonctionne à l'aide d'Insomnia. A part des requêtes, il est possible de GET (apercevoir les données de la base), GETbyID (voir une donnée précise en fonction de son ID), PUT (Modifier une donnée dans la base de données), POST (ajouter une donnée à la base de données) et enfin DELETE (supprime une donnée de la base de données).
+De ce fait, il est possible d'intégrer ces requêtes au site par un moyen, cependant, nous ne l'avons pas trouvé.
 
 # Les tâches du projet
 Après avoir pris connaissances du projet node.js, nous en avons sortie plusieurs grandes lignes de direction : réalisation d'un site web, réalisation d'une application mobile, réalisation d'une API et enfin, la mise en place d'une base de données. 
@@ -41,7 +43,7 @@ Une fois que nous étions d'accord sur le design, nous nous sommes réparti les 
 
 ## Répartition des rôles
 
-- Antonin Jouly : Réalisation de l'API
+- Antonin Joulie : Réalisation de l'API
 - Killian Cambert : Réalisation de l'application mobile et des maquettes
 - Djimy Drouet : Réalisation du site web
 - Antonin Reillon : Réalisation de certains points sur le site web et de la documentation.
@@ -50,7 +52,7 @@ Bien évidemment, cela concerne la répartition des tâches importantes et cela 
 
 # Nos choix
 
-Pour réaliser cette API, nous avons décidé d'utiliser les extensions suivantes : Express, Mongoose, Request, Yargs, Body-Parser et enfin EJS.
+Pour réaliser cette API, nous avons décidé d'utiliser les extensions suivantes : Express, Mongoose, Request, Yargs, Body-Parser et enfin EJS pour le site internet.
 
 ## Présentation des extensions
 
